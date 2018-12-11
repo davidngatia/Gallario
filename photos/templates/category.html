@@ -3,14 +3,14 @@
  {% block content %}
 
  <div class="container">
-   <body style="background-color:#B5C9F3">
+   <body style="background-color:rgb(249, 246, 250)">
 
    <div class="row">
 
      {% for photo in photos %}
      <div class="col-sm-4">
          <h1 class="text-center">{{photo.category.name}}
-          <img src="{{photo.image.url}}"  class="img-responsive" alt="">
+          <img src="{{photo.image.url}}"  class="img-responsive" alt="expected an image">
        </div>
      {% endfor %}
    </div>
