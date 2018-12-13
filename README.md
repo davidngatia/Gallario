@@ -14,7 +14,7 @@ You can install this app by cloning the repository from this link https://github
 * sudo apt-get update sudo apt-get install python3.6 python3.6 -m venv virtual source virtual/bin/activate</br  >
 
 * Download the latest version of pip in the virtual environment: $ curl https://bootstrap.pypa.io/get-pip.py | python pip install -r requirements.txt</br  >
-## Django username David
+## Django username david
 ## Django admin password Davito2000
 ## Live link
 You can find the published site of the application here https://kenyapics.herokuapp.com/
