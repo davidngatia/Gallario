@@ -51,7 +51,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
 # ALLOWED_HOSTS = []
 
@@ -106,14 +106,14 @@ WSGI_APPLICATION = 'galleryapp.wsgi.application'
 # Database
 #https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.postgresql',
-         'NAME':'gallery',
-         'USER':'david',
-     'PASSWORD':'1234',
-     }
- }
+# DATABASES = {
+#      'default': {
+#          'ENGINE': 'django.db.backends.postgresql',
+#          'NAME':'gallery',
+#          'USER':'david',
+#      'PASSWORD':'1234',
+#      }
+#  }
 
 
 #Password validation
